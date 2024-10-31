@@ -4,7 +4,7 @@ Simply save the folder in
 or
 ~/.local/share/gnome-shell/extensions/
 
-![image](https://github.com/azurerelish/gnome_shell_ethereum_gas_tracker/assets/6220170/7d46ad2f-e1af-4d79-97ae-bceb7f869fc7)
+
 
 
 The free API rate limit should be enough for you, rate limit of 1/5sec applied
