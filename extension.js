@@ -48,16 +48,16 @@ const EthGasPriceIndicator = GObject.registerClass(
                             let fastPrice = parseFloat(response.result.FastGasPrice).toFixed(2);
                             callback(safePrice, fastPrice);
                         } else {
-                            log(`Unexpected API response: ${responseText}`);
+                            console.warn(`Unexpected API response: ${responseText}`);
                             callback('API Error', 'API Error');
                         }
                     } catch (e) {
-                        log(`Error parsing API response: ${e.message}`);
-                        log(`Response text: ${responseText}`);
+                        console.error(`Error parsing API response: ${e.message}`);
+                        console.error(`Response text: ${responseText}`);
                         callback('Parse Error', 'Parse Error');
                     }
                 } else {
-                    log(`HTTP Error: ${message.get_status()}`);
+                    console.error(`HTTP Error: ${message.get_status()}`);
                     callback('HTTP Error', 'HTTP Error');
                 }
             });
