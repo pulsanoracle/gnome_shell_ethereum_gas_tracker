@@ -3,6 +3,6 @@
     "name": "Ethereum Gas Price Tracker",
     "description": "Display Ethereum gas price on the panel.\n\n It is using Etherscan (etherscan.io) service",
     "shell-version": [ "45", "46"],
-    "url": "https://github.com/pulsanoracle",
+    "url": "https://github.com/pulsanoracle/gnome_shell_ethereum_gas_tracker",
     "version": 1
 }
