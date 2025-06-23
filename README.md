@@ -17,4 +17,4 @@ You can replace your API key in the extension.js
 *Gnome is slightly different in 45, 46 and the code has been rebuilt to fit those changes
 
 For MacOS version, visit
-https://github.com/pulsanoracle/macos_gas_tracker/tree/main
+https://github.com/pulsanoracle/macos_gas_tracker
